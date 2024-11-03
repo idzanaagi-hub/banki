@@ -10,7 +10,7 @@ export class MainPage {
 
     constructor(page: Page) {
         this.page = page;
-        this.vehicleNumber = page.locator('[data-test="input-mask"]');    
+        this.vehicleNumber = page.locator('[data-test="autocode-licensePlate"]');    
         this.autocodeCalculateButton = page.locator('[data-test="autocode-calculate"]');
         this.autoYearField = page.locator('[data-test="auto-year]');
         this.autoPowerField = page.locator('[data-test="auto-power"]');
